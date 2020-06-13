@@ -3,7 +3,7 @@
 
 include $(SRCDIR)/config/aros-contrib.cfg
 
-#MM- contrib : contrib-shellplayer
+##MM- contrib : contrib-shellplayer
 
 #MM contrib-shellplayer : includes linklibs contrib-ptplay-lib contrib-shellplayer-cpy
 

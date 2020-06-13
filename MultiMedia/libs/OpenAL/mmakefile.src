@@ -5,7 +5,7 @@
 
 include $(SRCDIR)/config/aros-contrib.cfg
 
-#MM- contrib-multimedia : contrib-multimedia-$(AROS_TARGET_CPU)
+##MM- contrib-multimedia : contrib-multimedia-$(AROS_TARGET_CPU)
 
 #MM- contrib-multimedia-i386 : contrib-openal
 #DISABLED till we have a compiler to handle atomics #MM- contrib-multimedia-m68k : contrib-openal

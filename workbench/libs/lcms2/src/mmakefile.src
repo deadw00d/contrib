@@ -2,10 +2,10 @@
 
 include $(SRCDIR)/config/aros.cfg
 
-#MM workbench-libs-lcms2-includes : \
-#MM     kernel-exec-includes \
-#MM     kernel-dos-includes \
-#MM     includes-copy
+##MM workbench-libs-lcms2-includes : \
+##MM     kernel-exec-includes \
+##MM     kernel-dos-includes \
+##MM     includes-copy
 
 FILES := \
     cmscam02 \
@@ -38,7 +38,7 @@ NOWARN_FLAGS := $(NOWARN_UNUSED_BUT_SET_VARIABLE) $(NOWARN_STRINGOP_TRUNCATION)
 USER_CFLAGS := $(NOWARN_FLAGS) -noposixc
 USER_INCLUDES := -I$(SRCDIR)/$(CURDIR)/../include
 
-%build_module mmake=workbench-libs-lcms2 \
-  modname=lcms2 modtype=library files="$(FILES)"
+#%build_module mmake=workbench-libs-lcms2 \
+#  modname=lcms2 modtype=library files="$(FILES)"
 
 %common

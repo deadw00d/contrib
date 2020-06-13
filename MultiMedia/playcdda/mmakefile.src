@@ -18,7 +18,7 @@ USER_CFLAGS   := $(NOWARN_FLAGS) -DMUI_OBSOLETE
 USER_INCLUDES := -I$(SRCDIR)/$(CURDIR)/include -I$(AROS_INCLUDES)/SDI
 USER_LDFLAGS  := 
 
-#MM- contrib : contrib-multimedia-playcdda
+##MM- contrib : contrib-multimedia-playcdda
 #MM  contrib-multimedia-playcdda : \
 #MM    includes linklibs \
 #MM    contrib-multimedia-playcdda-files
